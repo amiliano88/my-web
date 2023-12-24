@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خرید شکلات مخلوط</title>
+    <!-- لینک بوت استرپ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- استایل های دلخواه -->
+    <style>
+        /* رنگ پس زمینه صفحه */
+        body {
+            background-color: #d7ccc8;
+        }
+        /* رنگ پس زمینه کارت محصول */
+        .card {
+            background-color: #efebe9;
+        }
+        /* رنگ دکمه خرید */
+        .btn-buy {
+            background-color: #6d4c41;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- کارت محصول -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3>خرید شکلات مخلوط</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="شکلات مخلوط.jfif" alt="شکلات مخلوط" class="img-fluid">
+                            </div>
+                            <div class="col-md-6">
+                                <p>شکلات مخلوط ترکیبی از همه چیز</p>
+                                <p>قیمت: 20000 تومان</p>
+                                <p>تعداد: <input type="number" min="1" max="10" value="1"></p>
+                                <p>روش پرداخت: <select>
+                                    <option>نقدی</option>
+                                    <option>کارت به کارت</option>
+                                    <option>درگاه اینترنتی</option>
+                                </select></p>
+                                <p>روش ارسال: <select>
+                                    <option>پست</option>
+                                    <option>پیک</option>
+                                    <option>حضوری</option>
+                                </select></p>
+                                <button class="btn btn-buy">خرید</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

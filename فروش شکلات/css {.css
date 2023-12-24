@@ -1,0 +1,16 @@
+.header {
+    /* رنگ پس زمینه هدر برای مرورگرهایی که خصوصیت linear-gradient را پشتیبانی نمی‌کنند */
+    background-color: #6d4c41;
+    /* رنگ پس زمینه هدر با استفاده از گرادیان خطی از رنگ قهوه‌ای تیره به رنگ قهوه‌ای روشن */
+    /* پیشوند -webkit برای مرورگرهایی مانند سافاری و کروم */
+    background: -webkit-linear-gradient(#6d4c41, #8d6e63);
+    /* پیشوند -moz برای مرورگر فایرفاکس */
+    background: -moz-linear-gradient(#6d4c41, #8d6e63);
+    /* پیشوند -o برای مرورگر اپرا */
+    background: -o-linear-gradient(#6d4c41, #8d6e63);
+    /* پیشوند -ms برای مرورگر اینترنت اکسپلورر */
+    background: -ms-linear-gradient(#6d4c41, #8d6e63);
+    /* خصوصیت استاندارد برای مرورگرهایی که پیشوند نمی‌خواهند */
+    background: linear-gradient(#6d4c41, #8d6e63);
+  }
+  
